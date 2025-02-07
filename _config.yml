@@ -20,7 +20,9 @@ author: Vikas Kalagi
 ###############################################
 
 navbar-links:
-  CV: "<a href="{{ "/assets/data/Resume_Vikas.pdf" | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>"
+  CV: <a href="{{ "/assets/data/Resume_Vikas.pdf" | absolute_url }}"</a>
+  #"/assets/data/Resume_Vikas.pdf" 
+  #"<a href="{{ "/assets/data/Resume_Vikas.pdf" | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>"
   #About Me: "aboutme"
   #Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
